@@ -29,21 +29,42 @@ input[type=text],input[type=email],#comment {
 .welcome{
     text-align: center;
 }
-.about us{
+.about{
     text-align: center;
+    height: 300px;
+    padding: 30px;
+    line-height: 200%;
 }
 .wedo{
-    width: 80px;
-    height: 250px;
-    margin-right:-20px;
-    margin-left: -20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right:-20px;
+    margin-left: -20px;
     padding: 0px;
+    display: inline;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .contactus .txtb label,input, textarea{
     text-align: center;
     display: inline-block;
+}
+.Whatwedo{
+   text-align: center;
+   display: inline;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+}
+.wedo{
+   text-align: center;
+   padding-top: 40px;
+   
+}
+.port{
+    text-align: center;
 }
