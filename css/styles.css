@@ -64,7 +64,7 @@ input[type=text],input[type=email],#comment {
     position: relative;
 }
 #whatWeDo h6 {
-    font-weight: 600;
+    font-weight: 500;
 }
 #whatWeDo p {
     font-size: 14px;
