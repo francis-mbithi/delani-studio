@@ -16,7 +16,7 @@ input[type=text],input[type=email],#comment {
     text-align: center;
     height: 450px;
     color: white;
-    background-image: url("img/c_image.jpg");
+    background-image: url("../img/c_image.jpg");
 
 }
 .social{
@@ -55,10 +55,10 @@ input[type=text],input[type=email],#comment {
 }
 .Whatwedo{
    text-align: center;
-   display: inline;
+   
    padding-top: 20px;
    padding-bottom: 20px;
-  
+   
 }
 .wedo{
    text-align: center;
@@ -68,3 +68,78 @@ input[type=text],input[type=email],#comment {
 .port{
     text-align: center;
 }
+.Whatwedo p{
+    display: none;
+    flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+  }
+  
+  #whatWeDo {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: auto;
+   }
+   #whatWeDo h1 {
+    font-size: 30px;
+   }
+   #whatWeDo h1::after {
+    content: '';
+    background: #222;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 15px auto 45px;
+   }
+   #whatWeDo .container {
+    position: relative;
+   }
+   #whatWeDo h6 {
+    font-weight: 600;
+   }
+   #whatWeDo p {
+    font-size: 14px;
+   }
+   #whatWeDo .doings {
+    height: 180px;
+   }
+   #whatWeDo .icon {
+    height: 130px;
+   }
+   #whatWeDo .details1 {
+    display: none;
+   }
+   #whatWeDo .illustration1 {
+    display: show;
+   }
+   #whatWeDo .details1 {
+    display: none;
+   }
+   #whatWeDo .illustration2 {
+    display: show;
+   }
+   #whatWeDo .details2 {
+    display: none;
+   }
+   #whatWeDo .illustration3 {
+    display: show;
+   }
+   #whatWeDo .details3 {
+    display: none;
+   }
+   #whatWeDo .icon:hover .doings p {
+    text-align: center;
+    font-size: 14px;
+   }
+   @media screen and (max-width: 601px) {
+    #whatWeDo h1::after {
+      margin: 15px auto 20px;
+      width: 35%;
+    }
+   }
+   @media screen and (max-width: 1000px) {
+    #whatWeDo .doings {
+      height: auto;
+      cursor: pointer;
+    }
+   }
