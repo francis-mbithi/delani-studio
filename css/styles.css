@@ -35,109 +35,87 @@ input[type=text],input[type=email],#comment {
     padding: 30px;
     line-height: 200%;
 }
-.wedo{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right:-20px;
-    margin-left: -20px;
-    padding: 0px;
-    display: inline;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
 .contactus .txtb label,input, textarea{
     text-align: center;
     display: inline-block;
 }
-.Whatwedo{
-   text-align: center;
-   
-   padding-top: 20px;
-   padding-bottom: 20px;
-   
-}
-.wedo{
-   text-align: center;
-   padding-top: 40px;
-   
-}
 .port{
     text-align: center;
 }
-.Whatwedo p{
-    display: none;
-    flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-  }
-  
-  #whatWeDo {
+
+#whatWeDo {
     padding-top: 50px;
     padding-bottom: 30px;
     text-align: center;
     height: auto;
-   }
-   #whatWeDo h1 {
+}
+#whatWeDo h1 {
     font-size: 30px;
-   }
-   #whatWeDo h1::after {
+}
+#whatWeDo h1::after {
     content: '';
     background: #222;
     display: block;
     height: 2px;
     width: 15%;
     margin: 15px auto 45px;
-   }
-   #whatWeDo .container {
+}
+#whatWeDo .container {
     position: relative;
-   }
-   #whatWeDo h6 {
+}
+#whatWeDo h6 {
     font-weight: 600;
-   }
-   #whatWeDo p {
+}
+#whatWeDo p {
     font-size: 14px;
-   }
-   #whatWeDo .doings {
+}
+#whatWeDo .doings {
     height: 180px;
-   }
-   #whatWeDo .icon {
+}
+#whatWeDo .icon {
     height: 130px;
-   }
-   #whatWeDo .details1 {
+}
+#whatWeDo .what1 {
     display: none;
-   }
-   #whatWeDo .illustration1 {
+}
+
+#whatWeDo .wedo1 {
     display: show;
-   }
-   #whatWeDo .details1 {
+}
+
+#whatWeDo .what2 {
     display: none;
-   }
-   #whatWeDo .illustration2 {
+}
+
+#whatWeDo .wedo2 {
     display: show;
-   }
-   #whatWeDo .details2 {
+}
+
+#whatWeDo .what2 {
     display: none;
-   }
-   #whatWeDo .illustration3 {
+}
+
+#whatWeDo .wedo3 {
     display: show;
-   }
-   #whatWeDo .details3 {
+}
+
+#whatWeDo .what3 {
     display: none;
-   }
-   #whatWeDo .icon:hover .doings p {
+}
+
+#whatWeDo .icon:hover .doings p {
     text-align: center;
     font-size: 14px;
-   }
-   @media screen and (max-width: 601px) {
+}
+
+@media screen and (max-width: 601px) {
     #whatWeDo h1::after {
       margin: 15px auto 20px;
       width: 35%;
     }
    }
-   @media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1000px) {
     #whatWeDo .doings {
       height: auto;
       cursor: pointer;

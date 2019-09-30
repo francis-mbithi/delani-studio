@@ -1,4 +1,3 @@
- 
  $(".first").click(function() {
     $(".wedo1").toggle(500);
     $(".what1").toggle(500);
