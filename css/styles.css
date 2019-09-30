@@ -33,7 +33,7 @@ input[type=text],input[type=email],#comment {
     text-align: center;
     height: 300px;
     padding: 30px;
-    line-height: 200%;
+    line-height: 190%;
 }
 .contactus .txtb label,input, textarea{
     text-align: center;
