@@ -7,7 +7,7 @@
 
 input[type=text],input[type=email],#comment {
     background: transparent;
-    color: rgb(212, 223, 245);
+    color: rgb(197, 208, 231);
 }
 .form-control::-webkit-input-placeholder{
     color:white;
