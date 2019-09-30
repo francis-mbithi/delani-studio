@@ -10,7 +10,7 @@ input[type=text],input[type=email],#comment {
     color: rgb(197, 208, 231);
 }
 .form-control::-webkit-input-placeholder{
-    color:white;
+    color:rgb(243, 224, 224);
 }
 .contactus{
     text-align: center;
