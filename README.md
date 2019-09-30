@@ -1,4 +1,3 @@
-# delani-studio
 # Delani studio
 ## Author *Francis Mbithi*
 # Delani studio 
@@ -17,7 +16,7 @@ A webpage of Delani studio explaining about what goes on in the studio.It also i
 - Navigate to portfolio
 - git init
 # live link
- -cick here to open
+ -cick here to open file:///home/francis/Documents/moringa-school-projects/delani-studio/index.html
 
 ## License
 
